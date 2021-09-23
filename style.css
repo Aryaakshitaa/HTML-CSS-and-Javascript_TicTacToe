@@ -1,0 +1,88 @@
+body{
+background-color: orangered;
+ text-align: center;
+ color: white;
+}
+
+@media only screen and (max-width:1150px) {
+    table {
+        margin: 18px auto;
+        position: static;
+    }
+    .buttons {
+        margin-left: 1px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:655px) {
+    .grid {
+        display: grid;
+        width: 400px;
+        height: 400px;
+        grid-template: repeat(3,1fr)/repeat(3,1fr);
+        margin: 22px auto;
+        grid-column-gap: 9px;
+        grid-row-gap: 9px;
+    }
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.grid{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template: repeat(3,1fr)/repeat(3,1fr);
+    margin:  20px auto;
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+}
+
+div{  
+    background-color: greenyellow;
+    border-radius: 8px;
+    padding: 22px;  
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-left: 18px;
+}
+
+.buttons div {
+        background-color: white;
+        color: black;
+        padding: 0;
+        justify-self: start;
+        margin: 0px 8px;
+        cursor: pointer;
+}
+
+.button-img{
+    width: 16px;
+    height: 16px;
+}
+
+.buttons div h3{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#button{
+    padding:4px 8px;
+
+}
+p{
+    font-family:Arial;
+    font-size:20px;
+    color:lightpink;
+}
